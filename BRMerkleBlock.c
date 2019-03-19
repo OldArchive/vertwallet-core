@@ -360,7 +360,7 @@ int BRMerkleBlockVerifyDifficulty(const BRMerkleBlock *block, const BRMerkleBloc
     return r; // don't worry about difficulty on testnet for now
 #endif
 
-    // TODO: fix difficulty target check for Digibyte (Multishield)
+    // TODO: fix difficulty target check for Vertcoin (Multishield)
     /*if (r && (block->height % BLOCK_DIFFICULTY_INTERVAL) == 0) {
         // target is in "compact" format, where the most significant byte is the size of resulting value in bytes, next
         // bit is the sign, and the remaining 23bits is the value after having been right shifted by (size - 3)*8 bits

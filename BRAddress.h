@@ -40,10 +40,10 @@ extern "C" {
 
 // See https://en.bitcoin.it/wiki/List_of_address_prefixes and
 // https://github.com/libbitcoin/libbitcoin/wiki/Altcoin-Version-Mappings
-#define DIGIBYTE_PUBKEY_LEGACY                71 // "V"
-#define DIGIBYTE_SCRIPT_ADDRESS_LEGACY        5  // "3"
-#define DIGIBYTE_SCRIPT_ADDRESS               5
-#define DIGIBYTE_PUBKEY_BECH32                "vtc"
+#define VERTCOIN_PUBKEY_LEGACY                71 // "V"
+#define VERTCOIN_SCRIPT_ADDRESS_LEGACY        5  // "3"
+#define VERTCOIN_SCRIPT_ADDRESS               5
+#define VERTCOIN_PUBKEY_BECH32                "vtc"
     
 #define BITCOIN_PUBKEY_ADDRESS_TEST 111  //TODO: Replace these values when the testnet becomes available.
 #define BITCOIN_SCRIPT_ADDRESS_TEST 196  //TODO: Replace these values when the testnet becomes available.

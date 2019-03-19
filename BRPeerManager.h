@@ -48,7 +48,7 @@ extern "C" {
 Remarks:
     The authors of the original breadwallet core ensure that the application
     contains at least 2016 blocks, until a difficulty transition block gets relayed.
-    Since Digibyte makes use of DigiShield (or more specifically MultiShield), on each and
+    Since Vertcoin makes use of DigiShield (or more specifically MultiShield), on each and
     every block there occurs a difficulty transition.
     We need to keep some blocks in memory in case of forks, to walk the chain backwards.
     To clear memory we have introduced a trigger value: CLEAR_MEM_BLOCKS_COUNT_TRIGGER.

@@ -23,7 +23,7 @@
 //  THE SOFTWARE.
 
 /*
- * ToDo: Replace DIGIBYTE_PUBKEY_LEGACY
+ * ToDo: Replace VERTCOIN_PUBKEY_LEGACY
 */
 
 #include "BRKey.h"
@@ -301,7 +301,7 @@ size_t BRKeyAddress(BRKey *key, char *addr, size_t addrLen)
     assert(key != NULL);
     
     hash = BRKeyHash160(key);
-    data[0] = DIGIBYTE_PUBKEY_LEGACY;
+    data[0] = VERTCOIN_PUBKEY_LEGACY;
 #if BITCOIN_TESTNET
     data[0] = BITCOIN_PUBKEY_ADDRESS_TEST;
 #endif
